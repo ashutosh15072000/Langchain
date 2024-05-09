@@ -1,0 +1,14 @@
+unstructured
+tiktoken
+pinecone-client
+pypdf
+openai
+langchain
+pandas
+numpy
+python-dotenv
+langchain_pinecone
+cryptography
+chromadb
+weaviate-client
+faiss
