@@ -11,4 +11,5 @@ langchain_pinecone
 cryptography
 chromadb
 weaviate-client
-faiss
+docx2txt
+PyMuPDF
