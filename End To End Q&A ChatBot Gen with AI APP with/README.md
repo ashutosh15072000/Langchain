@@ -12,14 +12,14 @@ os and dotenv for loading environment variables from  a .env file`
 ## Loading Environment Variables
 
 `The code loads environment variables from a .env file using dotenv. Specifically, it loads the LANGCHAIN_API_KEY, LANGCHAIN_TRACING_V2, and LANGCHAIN_PROJECT variables.`
-`
-## Prompt Template
 
-`The code defines a prompt template using ChatPromptTemplate.from_messages. The template consists of two messages:
+## Prompt Template
+"""
+The code defines a prompt template using ChatPromptTemplate.from_messages. The template consists of two messages:
 
 A system message that sets the tone for the conversation: "You are a helpful assistant. Please respond to user queries."
 A user message that takes a question as input: "Question: {question}"
-`
+"""
 ## Generate Response Function
 
 `The generate_response function takes in the following inputs:
